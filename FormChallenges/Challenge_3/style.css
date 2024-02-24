@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.form-container{
+    border: 1px solid #a7a7a7ce;
+    width: 380px;
+    min-height: 500px;
+    padding: 30px 20px;
+    border-radius: 6px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+.input-container label {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.input-container span {
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 6px;
+    border: 1px solid #9d9d9d;
+    margin: 5px 0;
+}
+
+.login-btn {
+    background-color: #00b57f;
+    color: #fff;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #00be85;
+}
+
+.mid {
+    margin: 20px 0;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.mid::before {
+    content: "";
+    position: absolute;
+    background-color: #212121;
+    width: 45%;
+    height: 1px;
+    left: 0;
+    bottom: 50%;
+}
+
+.mid::after {
+    content: "";
+    position: absolute;
+    background-color: #212121;
+    width: 45%;
+    height: 1px;
+    right: 0;
+    bottom: 50%;
+}
+
+.botom-container button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: #006eff;
+    color: #ffffff;
+    border: none;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #8b8b8b;
+}
+
+.botom-container i {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 600;
+}
